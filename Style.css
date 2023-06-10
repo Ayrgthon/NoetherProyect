@@ -1,0 +1,31 @@
+<style>
+:root{
+    --header1_color: #204709;
+    --header2_color: #42841F;
+    --header3_color: #6EAF4B;
+    --keyword_color: #DEB887; /* import */
+    --string_color: #79740e;
+    --number_color: #8f3f71;
+    --def_color: #DEB887; /* class name */
+    --property_color: #d65d0e;
+    --builtin_color: #427b58;
+    --comment_color: #9f9f9f;
+    --comment_color_2: #828282;
+    --operator_color: #a221f2;
+    --font_color: #3c3836; /* general font */
+    --variable2_color: #b16286; /* self keyworda */
+    --box_color: #F0F8FF;
+}
+
+body[data-jp-theme-light="true"] .jp-Notebook .CodeMirror.cm-s-jupyter{
+    background-color: var(--box_color) !important;
+}
+
+body[data-jp-theme-light="true"] .lm-Widget.p-Widget.jp-CodeMirrorEditor.jp-Editor.jp-InputArea-editor {
+    border-color: #DEB887 !important;
+}
+
+div.input_area{
+    background-color: var(--box_color) !important;
+}
+</style>
