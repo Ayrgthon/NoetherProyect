@@ -17,6 +17,17 @@
     --box_color: #F0F8FF;
 }
 
+.cm-s-jupyter span.cm-def {
+    color: var(--def_color);
+}
+.cm-s-jupyter span.cm-operator{
+    color: var(--operator_color);
+}
+
+.cm-s-jupyter span.cm-keyword{
+    color: var(--keyword_color);
+}
+
 body[data-jp-theme-light="true"] .jp-Notebook .CodeMirror.cm-s-jupyter{
     background-color: var(--box_color) !important;
 }
